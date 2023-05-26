@@ -1,0 +1,27 @@
+  {
+
+  "manifest_version": 2,
+  "name": "My First Browser",
+  "description": "A Browser Like Google Chrome",
+  "minimum_chrome_version": "24.0.1307.0",
+  "version": "1.3",
+  "icons": {
+    "16": "icon_16.png",
+    "128": "icon_128.png"
+  },
+  "app": {
+    "background": {
+      "scripts": ["config.js", "main.js"]
+    }
+  },
+  "permissions": [
+    "storage",
+    "webview",
+    "audioCapture",
+    "videoCapture",
+    "fullscreen",
+    "pointerLock",
+    "http://*/*",
+    "https://*/*"
+    ]
+}
