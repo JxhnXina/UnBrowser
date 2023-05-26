@@ -1,8 +1,8 @@
   {
 
   "manifest_version": 2,
-  "name": "My First Browser",
-  "description": "A Browser Like Google Chrome",
+  "name": "UnBrowser",
+  "description": "UnBrowser - The browser for your needs",
   "minimum_chrome_version": "24.0.1307.0",
   "version": "1.3",
   "icons": {
